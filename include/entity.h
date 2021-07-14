@@ -76,8 +76,8 @@ struct Combat {
 
 	int immuneFrames;
 	
-	int attack;
-	int defense;
+	float attack;
+	float defense;
 	float knockbackResist;
 
 	int currImmuneFrames;
@@ -87,6 +87,7 @@ enum Entities {
 	ENT_SLIME,
 	ENT_ZOMBIE,
 	ENT_VULTURE,
+	ENT_DEMONEYE,
 
 	ENTITIES_COUNT
 };

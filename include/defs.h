@@ -30,7 +30,7 @@ extern struct GameCompatibilityPresets game;
 #define allocCheck(x) if((x) == NULL) memoryErrorMenu()
 
 #ifndef DEBUGMODE
-#define VERSION "v0.9.0-indev"
+#define VERSION "v0.9.1-indev"
 #else
 #define VERSION "DEBUG BUILD!"
 #endif
@@ -63,10 +63,10 @@ extern struct GameCompatibilityPresets game;
 #define DAY_TICKS 43200
 
 // Amount of entity slots
-#define MAX_ENTITIES 5
+#define MAX_ENTITIES 12
 
 // 1/<x> chance to spawn an entity each frame
-#define SPAWN_CHANCE 600
+#define SPAWN_CHANCE 800
 
 /*
 Must be even.
